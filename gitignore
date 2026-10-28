@@ -1,0 +1,50 @@
+# Python: cache e bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Ambienti virtuali
+.venv/
+venv/
+env/
+
+# Dati generati dal programma (grandi e cambiano a ogni sessione)
+live_raw.txt
+*.raw.txt
+fastf1_cache/
+cache/
+
+# Output di debug e log
+*.log
+debug_*.txt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode (progetto iOS)
+ios/**/xcuserdata/
+ios/**/*.xcuserstate
+ios/**/DerivedData/
+ios/**/build/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Segreti: non pubblicare mai credenziali o file di configurazione locali
+.env
+.env.*
+secrets.*
+*.pem
+*.key
